@@ -1,6 +1,6 @@
-# Raven - Your Personal AI Assistant
+# Dora - Your Personal AI Assistant
 
-Raven is an interactive AI assistant that combines voice recognition, natural language processing, computer vision, and text-to-speech capabilities. It allows users to have natural conversations with an AI that can see through your webcam and respond intelligently to visual queries.
+Dora is an interactive AI assistant that combines voice recognition, natural language processing, computer vision, and text-to-speech capabilities. It allows users to have natural conversations with an AI that can see through your webcam and respond intelligently to visual queries.
 
 ## Features
 
@@ -20,8 +20,8 @@ Raven is an interactive AI assistant that combines voice recognition, natural la
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/raven-ai-assistant.git
-   cd raven-ai-assistant
+   git clone https://github.com/yourusername/dora-ai-assistant.git
+   cd dora-ai-assistant
    ```
 
 2. Install `uv` if you don't have it already:

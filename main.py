@@ -94,7 +94,7 @@ def get_webcam_frame():
 # Setup UI
 
 with gr.Blocks() as demo:
-    gr.Markdown("<h1 style='color: orange; text-align: center;  font-size: 4em;'> Raven – Your Personal AI Assistant</h1>")
+    gr.Markdown("<h1 style='color: orange; text-align: center;  font-size: 4em;'> Dora - Your Personal AI Assistant</h1>")
 
     with gr.Row():
         # Left column - Webcam
