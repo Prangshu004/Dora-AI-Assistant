@@ -24,15 +24,16 @@ Raven is an interactive AI assistant that combines voice recognition, natural la
    cd raven-ai-assistant
    ```
 
-2. Create a virtual environment:
+2. Install `uv` if you don't have it already:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   pip install uv
+   # or
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
-3. Install dependencies:
+3. Install dependencies using `uv`:
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 4. Set up environment variables:
@@ -45,7 +46,12 @@ Raven is an interactive AI assistant that combines voice recognition, natural la
 
 ## Usage
 
-Run the application:
+Run the application using `uv`:
+```bash
+uv run main.py
+```
+
+Alternatively, you can run with Python directly after activating the virtual environment:
 ```bash
 python main.py
 ```
@@ -109,13 +115,7 @@ ELEVENLABS_API_KEY=your_elevenlabs_api_key_here  # Optional
 4. The response is converted back to speech and played aloud
 5. The conversation history is maintained in the chat interface
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
